@@ -1,4 +1,4 @@
-# Weekly Meal Planner Skill
+# Weekly Meal Planner
 
 ## Overview
 
@@ -38,8 +38,22 @@ Use this skill when you want to:
 
 # Instructions for Use
 
-1. Download and place it inside `skills` folder (Eg. `.claude/skills`)
-2. Trigger skill using - `make a weekly meal plan for me`
+1. Make sure you have Node.js and npm installed on your system (required for using npx).
+
+2. Install this skill using one of the following methods:
+   - Using the [`Skills CLI`](https://skills.sh/):
+     ```bash
+     npx skills add https://github.com/tejasashinde/weekly-meal-planner
+     ```
+   - OR manually:
+     - Clone the repository.
+     - Place the `weekly-meal-planner` folder inside the `skills` directory (e.g., `.claude/skills`).
+
+3. Trigger the skill using:
+   ```bash
+   make a weekly meal plan for me
+   ```
+   and follow the instructions.
 
 ---
 
